@@ -15,7 +15,7 @@ int main() {
     }
 
     sockaddr_in target{};
-    target.sin_familu = AF_INET;
+    target.sin_family = AF_INET;
     target.sin_port = htons(22);  // learnt about a few ports for example 22 is for ssh, 53 for dns and 80 for http
     inet_pton(AF_INET, "127.0.0.1", &target.sin_addr);  // so this 127.0.0.1 is basically a loopback that targets to your machine 
 
