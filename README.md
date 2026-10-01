@@ -1,5 +1,5 @@
 # Nexis
-( UNDER PROCESS/CONSTRUCTION ) 
+( UNDER PROCESS/CONSTRUCTION ).
 **A network visibility and reconnaissance tool written in C++.**
 
 Nexis is a command-line networking project built from the ground up to explore how network discovery and port scanning actually work.
